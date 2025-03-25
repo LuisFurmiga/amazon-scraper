@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon.com Scraper</title>
+    <link rel="stylesheet" href="/src/index.css" />
+    <link rel="stylesheet" href="/src/loader.css" />
+  </head>
+
+  <body>
+    <h1>Amazon.com Scraper</h1>
+    <input type="text" id="keyword" placeholder="Enter keyword" />
+    <button id="search-btn">Search</button>
+
+    <div id="loader" class="wheel-and-hamster" style="display: none;">
+      <div class="wheel"></div>
+      <div class="hamster">
+        <div class="hamster__body">
+          <div class="hamster__head">
+            <div class="hamster__ear"></div>
+            <div class="hamster__eye"></div>
+            <div class="hamster__nose"></div>
+          </div>
+          <div class="hamster__limb hamster__limb--fr"></div>
+          <div class="hamster__limb hamster__limb--fl"></div>
+          <div class="hamster__limb hamster__limb--br"></div>
+          <div class="hamster__limb hamster__limb--bl"></div>
+          <div class="hamster__tail"></div>
+        </div>
+      </div>
+      <div class="spoke"></div>
+    </div>
+
+    <div id="results" class="results"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+
+</html>

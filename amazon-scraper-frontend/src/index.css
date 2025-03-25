@@ -1,0 +1,31 @@
+/* index.css */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.results {
+  margin-top: 2rem;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100px;
+  display: block;
+  margin-top: 10px;
+}
